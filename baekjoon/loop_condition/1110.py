@@ -1,6 +1,13 @@
-import sys
+N = input()
+num = N
+cnt = 0
 
-N = sys.stdin.readline()
-
-F = N[0] # 2
-B = N[1] # 6
+while True:
+    if len(num) == 1:
+        num = '0' + num
+    sum = str(int(num[0]) + int(num[1]))
+    num = num[-1] + sum[-1]
+    cnt += 1
+    if int(num) == int(N):
+        print(cnt)
+        break
