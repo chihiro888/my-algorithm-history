@@ -11,3 +11,4 @@ while True:
     if int(num) == int(N):
         print(cnt)
         break
+    
