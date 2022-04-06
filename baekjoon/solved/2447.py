@@ -21,10 +21,9 @@ def get_star_list(data):
 # k = [1, 2, 3, 4, 5, 6, 7]
 # N = [3, 9, 27, 81, 243, 729, 2187]          
 def main():
-    N = int(input())
-    k = int(math.log(N, 3))
+    N = round(math.log(int(input()), 3))
     data = [['*']]
-    for _ in range(1, k+1):
+    for _ in range(1, N+1):
         data = get_star_list(data)
     print_start_list(data)
     
