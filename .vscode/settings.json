@@ -50,8 +50,10 @@
         "xtr1common": "cpp"
     },
     "cSpell.ignoreWords": [
+        "ctext",
         "deque",
         "multiset",
+        "ptext",
         "vect"
     ],
     "code-runner.terminalRoot": "/"
