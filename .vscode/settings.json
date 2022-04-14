@@ -6,7 +6,10 @@
         "ostream": "cpp",
         "stack": "cpp",
         "deque": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "queue": "cpp",
+        "xlocinfo": "cpp",
+        "xutility": "cpp"
     },
     "cSpell.ignoreWords": [
         "deque"
