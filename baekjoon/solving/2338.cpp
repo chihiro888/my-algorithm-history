@@ -280,11 +280,7 @@ int main()
     BigInt A(a);
     BigInt B(b);
 
-    if (b == 0) {
-        cout << A << endl;
-        cout << B << endl;
-    } else {
-        cout << A / B << endl;
-        cout << A % B << endl;
-    }
+    cout << A + B << endl;
+    cout << A - B << endl;
+    cout << A * B;
 }

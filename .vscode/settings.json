@@ -14,5 +14,6 @@
     "cSpell.ignoreWords": [
         "deque",
         "multiset"
-    ]
+    ],
+    "code-runner.terminalRoot": "/"
 }
