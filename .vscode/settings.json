@@ -3,6 +3,12 @@
         "xstring": "cpp",
         "string": "cpp",
         "iostream": "cpp",
-        "ostream": "cpp"
-    }
+        "ostream": "cpp",
+        "stack": "cpp",
+        "deque": "cpp",
+        "vector": "cpp"
+    },
+    "cSpell.ignoreWords": [
+        "deque"
+    ]
 }
