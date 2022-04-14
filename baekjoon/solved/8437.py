@@ -1,8 +1,5 @@
-a = int(input())
-b = int(input())
+together = int(input())
+diff = int(input())
 
-x = int(a/2)
-y = int(b/2)
-
-print(x+y)
-print(x-y)
+print((together+diff)//2)
+print((together-diff)//2)
