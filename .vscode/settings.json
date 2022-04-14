@@ -12,6 +12,7 @@
         "xutility": "cpp"
     },
     "cSpell.ignoreWords": [
-        "deque"
+        "deque",
+        "multiset"
     ]
 }
