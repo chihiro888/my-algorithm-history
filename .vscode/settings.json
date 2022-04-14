@@ -51,7 +51,8 @@
     },
     "cSpell.ignoreWords": [
         "deque",
-        "multiset"
+        "multiset",
+        "vect"
     ],
     "code-runner.terminalRoot": "/"
 }
