@@ -1,5 +1,7 @@
 # queue
 
+https://www.cplusplus.com/reference/queue/queue/  
+
 queue is container adaptor
 
 ## Time complexity

@@ -1,5 +1,7 @@
 # stack
 
+https://www.cplusplus.com/reference/stack/stack/  
+
 stack is container adaptor
 
 ## Time complexity
