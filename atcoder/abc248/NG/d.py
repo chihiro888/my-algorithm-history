@@ -14,3 +14,6 @@ for _ in range(Q):
     # solve
     print(A[l-1:r].count(x))
     
+'''
+https://atcoder.jp/contests/abc248/submissions/31029955
+'''

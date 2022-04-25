@@ -8,3 +8,7 @@ if (a < b):
     print('Takahashi')
 else:
     print('Aoki')
+    
+'''
+https://atcoder.jp/contests/abc245/submissions/30443122
+'''

@@ -34,3 +34,7 @@ for n in range(Q):
         
         # solve
         print('sum -> ', sum)
+        
+'''
+https://atcoder.jp/contests/abc247/submissions/30885779
+'''

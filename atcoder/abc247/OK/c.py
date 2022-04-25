@@ -10,3 +10,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+'''
+https://atcoder.jp/contests/abc247/submissions/30870650
+'''

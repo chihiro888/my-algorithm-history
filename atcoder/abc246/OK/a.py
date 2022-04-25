@@ -23,3 +23,7 @@ elif yList[1] == yList[2]:
     solve.append(yList[0])
 
 print(f'{solve[0]} {solve[1]}')
+
+'''
+https://atcoder.jp/contests/abc246/submissions/30687236
+'''

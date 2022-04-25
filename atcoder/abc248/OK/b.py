@@ -30,3 +30,7 @@ while(True):
         # 증식 후 슬라임 목표 개수 이상일 경우
         print(cnt)
         break
+    
+'''
+https://atcoder.jp/contests/abc248/submissions/31034732
+'''

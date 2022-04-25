@@ -23,3 +23,7 @@ for s in sList:
         condition = 'No'
         
 print(condition)
+
+'''
+https://atcoder.jp/contests/abc247/submissions/30890088
+'''
