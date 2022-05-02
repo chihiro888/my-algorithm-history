@@ -14,7 +14,8 @@ for _ in range(q):
         # pattern1, t is only a
         print(1)
     elif t.find('a') != -1:
-        # pattern2, 
+        # pattern2, include t
         print(-1) 
     elif t.count('a') == 0:
+        # pattern3, not include t
         print(2 ** len(s))
