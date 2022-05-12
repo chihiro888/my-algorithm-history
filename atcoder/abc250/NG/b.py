@@ -25,5 +25,6 @@ else:
                     white = True
                     black = False
         print()
-        if dm % a == 0 or a == 1:
+        print(f'dm % a == 0 = {dm % a == 0}')
+        if dm % a == 0 and a == 1:
             white, black = black, white
