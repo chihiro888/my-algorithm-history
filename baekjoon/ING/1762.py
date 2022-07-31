@@ -1,9 +1,10 @@
+import sys
 n, m = map(int, input().split())
 adj = [set() for i in range(n+1)]
 solve = 0
 
 for i in range(m):
-    a, b = map(int, input().split())
+    a, b = map(int, sys.stdin.readline().split())
     if a < b:
         adj[a].add(b)
     else:
