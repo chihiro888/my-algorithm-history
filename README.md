@@ -1,7 +1,7 @@
 # 😀 my algorithm history
 
 Started 2022-03-26  
-Updated 2022-04-25
+Updated 2022-11-13
 
 ## 🎮 Problem Solving (PS)
 
@@ -9,34 +9,24 @@ Updated 2022-04-25
 
 https://www.acmicpc.net/user/chihiro888
 
-my rank : silver 3  
-solved problem : 142
+my rank : silver 2  
+solved problem : 162  
 
 ### leetcode
 
-https://leetcode.com/chihiro888
+https://leetcode.com/chihiro888  
 
 ## 🏆 Competitive Programming (CP)
 
 ### atcoder
 
-https://atcoder.jp/users/chihiro888
+https://atcoder.jp/users/chihiro888  
 
-Rating : 46
-
-contest history
-
-- ABC256 (A)
-- ABC246 (A)
-- ABC247 (A/C)
-- ABC248 (A/B)
+Rating : 144  
 
 ### codeforces
 
-https://codeforces.com/profile/chihiro888
-
-Rating : 806
-
-- div2 #782 (-)
-- div2 #783 (-)
-- div4 #784 (A/B/C/G)
+https://codeforces.com/profile/chihiro888  
+  
+Rating : 826  
+ 
