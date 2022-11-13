@@ -1,7 +1,7 @@
 # 😀 my algorithm history
 
-Started 2022-03-26  
-Updated 2022-11-13
+- Started 2022-03-26  
+- Updated 2022-11-13
 
 ## 🎮 Problem Solving (PS)
 
@@ -29,4 +29,3 @@ Rating : 144
 https://codeforces.com/profile/chihiro888  
   
 Rating : 826  
- 
