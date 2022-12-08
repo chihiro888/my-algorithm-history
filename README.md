@@ -1,20 +1,16 @@
 # 😀 my algorithm history
 
 - Started 2022-03-26  
-- Updated 2022-11-13
+- Updated 2022-12-08  
 
 ## 🎮 Problem Solving (PS)
 
 ### baekjoon (BOJ)
 
-https://www.acmicpc.net/user/chihiro888
+https://www.acmicpc.net/user/chihiro888  
 
-my rank : silver 2  
-solved problem : 162  
-
-### leetcode
-
-https://leetcode.com/chihiro888  
+my rank : Gold 5  
+solved problem : 219  
 
 ## 🏆 Competitive Programming (CP)
 
@@ -22,10 +18,10 @@ https://leetcode.com/chihiro888
 
 https://atcoder.jp/users/chihiro888  
 
-Rating : 144  
+Rating : 186  
 
 ### codeforces
 
 https://codeforces.com/profile/chihiro888  
   
-Rating : 826  
+Rating : 788  
