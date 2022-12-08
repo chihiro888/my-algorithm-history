@@ -1,3 +1,5 @@
+# 중복된 배열
+# 왼쪽 인덱스 반환
 def binary_search_left(d, t):
     start = 0
     end = len(d) - 1
@@ -13,6 +15,8 @@ def binary_search_left(d, t):
     return start
 
 
+# 중복된 배열
+# 오른쪽 인덱스 반환
 def binary_search_right(d, t):
     start = 0
     end = len(d) - 1
@@ -28,6 +32,8 @@ def binary_search_right(d, t):
     return end
 
 
+# 중복되지 않은 배열
+# 찾는 값이 있는 경우 인덱스 반환, 없는 경우 None 반환
 def binary_search(d, t):
     start = 0
     end = len(d) - 1
