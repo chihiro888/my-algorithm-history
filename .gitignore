@@ -1,3 +1,5 @@
 *.exe
 sample.txt
 venv/
+__pycache__
+.pytest_cache
