@@ -16,7 +16,26 @@ def lmv(type): return list(map(type, ips()))
 
 # Please write the code below ---
 def main():
-    pass
+    n = int(ip())
+    # print(f'n = {n}')
+    s_list = []
+    t_list = []
+    for _ in range(n):
+        s, t = mv(str)
+        # print(f's = {s}, t = {t}')
+        s_list.append(s)
+        t_list.append(t)
+
+    s_list = sorted(list(set(s_list)))
+    t_list = sorted(list(set(t_list)))
+
+    # print(f's_list = {s_list}')
+    # print(f't_list = {t_list}')
+
+    if s_list != t_list:
+        print('Yes') 
+    else:
+        print('No')
 # -------------------------------
 
 
