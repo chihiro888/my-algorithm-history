@@ -10,7 +10,7 @@
 https://www.acmicpc.net/user/chihiro888  
 
 my rank : Gold 5  
-solved problem : 219  
+solved problem : 231  
 
 ## 🏆 Competitive Programming (CP)
 
@@ -18,10 +18,14 @@ solved problem : 219
 
 https://atcoder.jp/users/chihiro888  
 
-Rating : 186  
+Rating : 208  
 
 ### codeforces
 
 https://codeforces.com/profile/chihiro888  
   
 Rating : 788  
+
+## How to Setup C++ in VSCode
+
+https://code.visualstudio.com/docs/languages/cpp
