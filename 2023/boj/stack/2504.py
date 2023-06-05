@@ -49,7 +49,7 @@ def solution(d):
             stack.append(x)
 
     # 결과 반환
-    if len(stack) == 1:
+    if len(stack) == 1 and isinstance(stack[0], int):
         return stack[0]
     else:
         return 0
