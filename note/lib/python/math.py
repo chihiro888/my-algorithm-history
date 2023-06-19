@@ -20,6 +20,28 @@ def gcd(a:int, b:int):
 def lcm(a:int, b:int):
     return a * b / gcd(a, b)
 
+# 진법 변환
+def base_convert(number: int, base: int):
+    alphabet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    result = ""
+    
+    while number > 0:
+        number, remainder = divmod(number, base)
+        result = alphabet[remainder] + result
+    
+    return result
+
+# 진법 변환
+def convert(number: str, base: int):
+    return int(number, base)
+
+# 정수를 입력받아 약수를 리스트로 반환
+def find_divisors(n):
+    divisors = []
+    for i in range(1, n + 1):
+        if n % i == 0:
+            divisors.append(i)
+    return divisors
 
 # 에라토스테네스의 체 - 소수 리스트
 # n 미만까지 구하기 때문에 이하로 구하기 위해서 n+1 을 넣을 것
