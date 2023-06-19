@@ -17,6 +17,10 @@ def is_palindrome(s):
 def str_to_list(s:str):
     return [x for x in s]
 
+# 리스트를 문자열로 출력
+def print_list(l: list):
+    print(' '.join(map(str, l)))
+
 # 리스트 안에 문자 치환
 def replace_string_in_list(lst, target, replacement):
     for i in range(len(lst)):
