@@ -17,6 +17,10 @@ def is_palindrome(s):
 def str_to_list(s:str):
     return [x for x in s]
 
+# 자리수 출력 제한
+def format_float(n: float):
+    return "{:.2f}".format(n)
+
 # 리스트를 문자열로 출력
 def print_list(l: list):
     print(' '.join(map(str, l)))
