@@ -25,6 +25,10 @@ def format_float(n: float):
 def print_list(l: list):
     print(' '.join(map(str, l)))
 
+# 리스트를 문자열로 반환
+def get_str(l: list):
+    return ' '.join(map(str, l))
+
 # 리스트 안에 문자 치환
 def replace_string_in_list(lst, target, replacement):
     for i in range(len(lst)):
