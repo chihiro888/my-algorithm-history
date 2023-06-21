@@ -1,3 +1,9 @@
+import math
+
+# 팩토리얼
+def factorial(n):
+    return math.factorial(n)
+
 # 소인수분해
 def factorization(x:int):
     d = 2
