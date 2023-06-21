@@ -35,3 +35,13 @@ def replace_string_in_list(lst, target, replacement):
         if lst[i] == target:
             lst[i] = replacement
     return lst
+
+# 알파벳 넣고 인덱스 반환
+def get_alphabet_index(char):
+    char = char.lower()
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    
+    if char in alphabet:
+        return alphabet.index(char)
+    else:
+        return -1

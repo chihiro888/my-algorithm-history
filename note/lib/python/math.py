@@ -59,3 +59,10 @@ def prime_list(n:int):
             for j in range(i+i, n, i):
                 s[j] = False
     return [i for i in range(2, n) if s[i] == True]
+
+# list 중 m개를 선택할 경우의 최대값 반환
+from itertools import combinations
+def get_max_combination(lst, m):
+    combinations_lst = list(combinations(lst, m))
+    max_value = max(sum(combination) for combination in combinations_lst)
+    return max_value
