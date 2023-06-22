@@ -12,11 +12,11 @@ def lmv(type): return list(map(type, ips()))
 # Function Block ----------------
 # 정렬 유무 확인
 def is_sorted(seq):
-    return all(seq[i] <= seq[i+1] for i in range(len(seq)-1))
+    return all(seq[i] < seq[i+1] for i in range(len(seq)-1))
 
 # 역정렬 유무 확인
 def is_reverse_sorted(seq):
-    return all(seq[i] >= seq[i+1] for i in range(len(seq)-1))
+    return all(seq[i] > seq[i+1] for i in range(len(seq)-1))
 # -------------------------------
 
 
@@ -31,7 +31,7 @@ def main():
     elif is_reverse_sorted(d):
         print('Fish Diving')
     else:
-        print('No Fish.')
+        print('No Fish')
 # -------------------------------
 
 
