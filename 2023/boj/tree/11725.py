@@ -85,6 +85,8 @@ def main():
         tree[x].append(y)
         tree[y].append(x)
 
+    print(tree)
+
     dfs(size, tree, 1)
 # -------------------------------
 
