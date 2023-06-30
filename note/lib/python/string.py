@@ -45,3 +45,23 @@ def get_alphabet_index(char):
         return alphabet.index(char)
     else:
         return -1
+    
+# 이차원 배열 디버깅
+def print_arr(arr):
+    for y in arr:
+        for x in y:
+            print(x, end='')
+        print()
+    print('----------------')
+
+# 이차원 배열에서 요소 찾아서 인덱스 반환
+def find_negative_one(arr):
+    for i, row in enumerate(arr):
+        for j, element in enumerate(row):
+            if element == 1:
+                return i, j
+    return -1, -1
+
+# 2차원 배열을 1차원 배열로 변경
+def flatten_2d_array(arr):
+    return [element for sublist in arr for element in sublist]
