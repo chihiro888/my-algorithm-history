@@ -10,21 +10,12 @@ def lmv(type): return list(map(type, ips()))
 
 
 # Function Block ----------------
-def print_arr(arr):
-    for y in arr:
-        for x in y:
-            print(x, end='')
-        print()
-    print('----------------')
-
 def find_negative_one(arr):
     for i, row in enumerate(arr):
         for j, element in enumerate(row):
             if element == 1:
                 return i, j
     return -1, -1
-
-count = 0
 
 def dfs(g, m, n):
     g[n][m] = 9
@@ -49,31 +40,28 @@ def dfs(g, m, n):
 def main():
     size = int(ip())
 
-    # m은 가로, n은 세로
-    m, n, k = mv(int)
-    g = [[0] * m for _ in range(n)]
-
-    for _ in range(k):
+    for _ in range(size):
         # m은 가로, n은 세로
-        m, n = mv(int)
-        g[n][m] = 1
+        m, n, k = mv(int)
+        g = [[0] * m for _ in range(n)]
 
-    # print_arr(g)
+        for _ in range(k):
+            # m은 가로, n은 세로
+            m, n = mv(int)
+            g[n][m] = 1
 
-    count = 0
-    while True:
-        n, m = find_negative_one(g)
+        count = 0
+        while True:
+            n, m = find_negative_one(g)
 
-        if n == -1 and m == -1:
-            break
+            if n == -1 and m == -1:
+                break
 
-        dfs(g, m, n)
+            dfs(g, m, n)
 
-        # print_arr(g)
-        
-        count += 1
+            count += 1
 
-    print(count)
+        print(count)
 # -------------------------------
 
 
