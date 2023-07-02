@@ -65,3 +65,7 @@ def get_max_combination(lst, m):
     combinations_lst = list(combinations(lst, m))
     max_value = max(sum(combination) for combination in combinations_lst)
     return max_value
+
+# 반올림 (일반)
+def my_round(val):
+    return int(val) + 1 if val - int(val) >= 0.5 else int(val)
