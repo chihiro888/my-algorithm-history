@@ -21,7 +21,6 @@ def gcd(a:int, b:int):
         a, b = b, a % b
     return a
 
-
 # 최소공배수
 def lcm(a:int, b:int):
     return a * b / gcd(a, b)
