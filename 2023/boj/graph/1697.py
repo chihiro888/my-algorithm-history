@@ -28,7 +28,7 @@ def main():
     q = deque()
     q.append([n-1, n+1, n*2, 1])
 
-    v = []    
+    v = {-1} 
     solve = 0
     while not len(q) == 0:
         d = q.popleft()
@@ -38,8 +38,8 @@ def main():
             break
 
         for x in d[:len(d)-1]:
-            if x not in v and x < 100001:
-                v.append(x)
+            if x not in v and x < 100001 and x >= 0:
+                v.add(x)
                 q.append([x-1, x+1, x*2, d[3]+1])
 
     print(solve)
