@@ -10,6 +10,15 @@ def lmv(type): return list(map(type, ips()))
 
 
 # Function Block ----------------
+# 이차원 배열 디버깅
+def print_arr(arr):
+    for y in arr:
+        for x in y:
+            print(x, end='')
+        print()
+    print('----------------')
+
+
 def longest_common_subsequence(str1, str2):
     m = len(str1)
     n = len(str2)
@@ -24,6 +33,8 @@ def longest_common_subsequence(str1, str2):
                 dp[i][j] = dp[i - 1][j - 1] + 1
             else:
                 dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+    print_arr(dp)
 
     # 최장 공통 부분 수열의 길이 반환
     return dp[m][n]
