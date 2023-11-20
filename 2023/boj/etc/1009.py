@@ -10,17 +10,29 @@ def lmv(type): return list(map(type, ips()))
 
 
 # Function Block ----------------
-def op(a, b):
-    return int(str(a * b)[-1])
-    
+d = [
+    [10],
+    [1],
+    [2, 4, 8, 6],
+    [3, 9, 7, 1],
+    [4, 6],
+    [5],
+    [6],
+    [7, 9, 3, 1],
+    [8, 4, 2, 6],
+    [9, 1]
+]
+
 def solve(a, b):
-    q = []
-    q.append(op(a, a))
-    while q[-1] != a:
-        q.append(op(a, q[-1]))
-    q.insert(0, q.pop())
-    x = b % len(q)
-    print(q[x-1])
+    if len(str(a)) > 1:
+        if int(str(a)[-2] + str(a)[-1]) == 10:
+            print(10)
+            return False
+    last_number = int(str(a)[-1])
+    rule_size = len(d[last_number])
+    i = b % rule_size
+    print(d[last_number][i-1])
+
 # -------------------------------
 
 
